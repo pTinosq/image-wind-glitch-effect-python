@@ -58,7 +58,7 @@ def generate(imageObject, width, height, split_chance, splitIntensity, splitThre
     saveOrShow = input("Do you want to save the new image? y/n")
     if saveOrShow.lower() == "y":
         # Handles saving
-        fileSaveTo = input("Save directory: ")
+        fileSaveTo = input("Save as (./file.png): ")
         img.save(fileSaveTo)
 
     else:
